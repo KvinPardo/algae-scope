@@ -8,24 +8,24 @@ const Header = () => {
       <div className=" bg-[#02175D] h-[90px] w-full flex items-center">
         <div className="flex justify-around items-center container mx-auto gap-x-20">
           <div className="">
-            <a href=""><img src="/img/logo-alga.webp" alt="" className="w-full" /></a>
+            <Link to="/"><img src="/img/logo-alga.webp" alt="" className="w-full" /></Link>
           </div>
           <div>
             <ul className="md:flex text-white gap-12">
               <li>
-                <Link to="/">About us</Link>
+                <Link to="/aboutus">About us</Link>
               </li>
               <li>
-                <Link to="/">Service</Link>
+                <Link to="/service">Service</Link>
               </li>
               <li>
-                <Link to="/">Team</Link>
+                <Link to="/team">Team</Link>
               </li>
               <li>
-                <Link to="/">Blog</Link>
+                <Link to="/blog">Blog</Link>
               </li>
               <li>
-                <Link to="/">Contact</Link>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
